@@ -26,7 +26,7 @@
   </style>
 </head>
 <body>
-  <img src="https://seeklogo.com/images/T/trust-wallet-logo-7CCED1D4F3-seeklogo.com.png" alt="Trust Wallet Logo">
+  <img src="https://cryptologos.cc/logos/trust-wallet-token-twt-logo.png" alt="Trust Wallet Logo">
   <div class="message">
     <h2>Access Denied</h2>
     <p>This service is not available in your country.</p>
