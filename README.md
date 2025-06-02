@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Access Denied</title>
   <style>
     body {
-      background-color: #111;
+      background-color: #0c0c0c;
       color: #fff;
       font-family: Arial, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
       text-align: center;
+      padding: 60px 20px;
     }
-    h1 {
-      font-size: 2rem;
+    img {
+      width: 100px;
+      margin-bottom: 30px;
+    }
+    .message {
+      background: #1e1e1e;
+      padding: 20px;
+      display: inline-block;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
     }
   </style>
-  <script>
-    // Optional: redirect to blank page after 5 seconds
-    setTimeout(() => {
-      window.location.href = "about:blank";
-    }, 5000);
-  </script>
 </head>
 <body>
-  <h1>🌍 This page is restricted and unavailable in your region.</h1>
+  <img src="https://seeklogo.com/images/T/trust-wallet-logo-7CCED1D4F3-seeklogo.com.png" alt="Trust Wallet Logo">
+  <div class="message">
+    <h2>Access Denied</h2>
+    <p>This service is not available in your country.</p>
+  </div>
 </body>
 </html>
