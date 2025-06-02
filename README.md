@@ -26,7 +26,9 @@
   </style>
 </head>
 <body>
-  <img src="https://seeklogo.com/images/T/trust-wallet-logo-7CCED1D4F3-seeklogo.com.png" alt="Trust Wallet Logo">
+  <!-- Working Trust Wallet logo from GitHub CDN -->
+  <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png" alt="Trust Wallet Logo">
+  
   <div class="message">
     <h2>Access Denied</h2>
     <p>This service is not available in your country.</p>
